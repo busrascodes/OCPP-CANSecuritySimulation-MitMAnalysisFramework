@@ -1,0 +1,16 @@
+[2026-01-17 21:42:25] === Security Tests Started ===
+[2026-01-17 21:42:25] PASS | StartTransaction baseline accepted | StartTransaction: OK
+[2026-01-17 21:42:25] FAIL | StartTransaction tampering detected (id_tag) | StartTransaction: OK
+[2026-01-17 21:42:25] PASS | StopTransaction baseline accepted | StopTransaction: OK
+[2026-01-17 21:42:25] FAIL | StopTransaction tampering detected (meter_stop) | StopTransaction: OK
+[2026-01-17 21:42:25] PASS | RemoteStartTransaction baseline accepted | RemoteStartTransaction: OK
+[2026-01-17 21:42:25] FAIL | RemoteStartTransaction tampering detected (max_current) | RemoteStartTransaction: OK
+[2026-01-17 21:42:25] === Security Tests Finished ===
+[2026-01-17 21:56:07] === Security Tests Started ===
+[2026-01-17 21:56:07] PASS | StartTransaction baseline accepted | StartTransaction: OK
+[2026-01-17 21:56:07] PASS | StartTransaction tampering detected (id_tag) | StartTransaction: id_tag not allowed (HACKER_TAG)
+[2026-01-17 21:56:07] PASS | StopTransaction baseline accepted | StopTransaction: OK
+[2026-01-17 21:56:07] PASS | StopTransaction tampering detected (meter_stop) | StopTransaction: meter_stop decreased (750 < 1000)
+[2026-01-17 21:56:07] PASS | RemoteStartTransaction baseline accepted | RemoteStartTransaction: OK
+[2026-01-17 21:56:07] PASS | RemoteStartTransaction tampering detected (max_current) | RemoteStartTransaction: max_current too high (64A > 32A)
+[2026-01-17 21:56:07] === Security Tests Finished ===

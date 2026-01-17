@@ -1,0 +1,9 @@
+[2026-01-17 21:23:35] [CAN Listener] Starting on vcan0
+[2026-01-17 21:23:35] [CAN Listener] Error: [WinError 10047] Ýstenen iletiþim kuralýyla uyumsuz bir adres kullanýldý
+[2026-01-17 21:25:39] [CAN] Connection failed, running in simulation mode
+[2026-01-17 21:32:22] [CAN] Connection failed, running in simulation mode
+[2026-01-17 21:32:24] [CAN SIM] ID: 0x100, Data: ['0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0'] - Boot Notification
+[2026-01-17 21:32:26] [CAN SIM] ID: 0x101, Data: ['0x1', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0'] - Status: Available
+[2026-01-17 21:32:28] [CAN SIM] ID: 0x102, Data: ['0x1', '0x1', '0xd0', '0x0', '0x0', '0x0', '0x0', '0x0'] - Start: USER001
+[2026-01-17 21:32:35] [CAN SIM] ID: 0x103, Data: ['0x0', '0x39', '0x30', '0x0', '0x0', '0x0', '0x0', '0x0'] - Stop: 12345
+[2026-01-17 21:32:37] [CAN SIM] ID: 0x101, Data: ['0x1', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0'] - Status: Available

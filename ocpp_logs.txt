@@ -1,0 +1,22 @@
+[2026-01-17 21:18:24] [CSMS] Starting server on ws://localhost:9000
+[2026-01-17 21:19:58] [CSMS] Starting server on ws://localhost:9000
+[2026-01-17 21:25:39] [CP] Connecting to CSMS...
+[2026-01-17 21:25:41] [CP] Sending BootNotification
+[2026-01-17 21:25:41] [CSMS] BootNotification from CP001 - SimVendor VirtualCP-v1
+[2026-01-17 21:26:11] [CSMS] Error: received 1000 (OK); then sent 1000 (OK)
+[2026-01-17 21:32:06] [CSMS] Starting server on ws://localhost:9000
+[2026-01-17 21:32:22] [CP] Connecting to CSMS...
+[2026-01-17 21:32:24] [CP] Sending BootNotification
+[2026-01-17 21:32:24] [CSMS] BootNotification from CP001 - SimVendor VirtualCP-v1
+[2026-01-17 21:32:26] [CP] Status: Available
+[2026-01-17 21:32:26] [CSMS] Status: Connector 1 -> Available
+[2026-01-17 21:32:28] [CP] Starting transaction for USER001
+[2026-01-17 21:32:28] [CSMS] StartTransaction: USER001 on connector 1
+[2026-01-17 21:32:33] [CSMS] Heartbeat from CP001
+[2026-01-17 21:32:33] [CP] Heartbeat sent
+[2026-01-17 21:32:35] [CP] Stopping transaction 12345
+[2026-01-17 21:32:35] [CSMS] StopTransaction: 12345
+[2026-01-17 21:32:37] [CP] Status: Available
+[2026-01-17 21:32:37] [CSMS] Status: Connector 1 -> Available
+[2026-01-17 21:32:37] [CP] All operations completed
+[2026-01-17 21:32:37] [CSMS] Error: received 1000 (OK); then sent 1000 (OK)

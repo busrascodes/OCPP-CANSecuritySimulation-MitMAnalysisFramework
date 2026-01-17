@@ -1,0 +1,12 @@
+[2026-01-17 21:42:25] [MitM] Intercepted: StartTransaction
+[2026-01-17 21:42:25] [MitM] Error: 'charmap' codec can't encode character '\u2192' in position 53: character maps to <undefined>
+[2026-01-17 21:42:25] [MitM] Intercepted: StopTransaction
+[2026-01-17 21:42:25] [MitM] Error: 'charmap' codec can't encode character '\u2192' in position 49: character maps to <undefined>
+[2026-01-17 21:42:25] [MitM] Intercepted: RemoteStartTransaction
+[2026-01-17 21:42:25] [MitM] Error: 'charmap' codec can't encode character '\u2192' in position 53: character maps to <undefined>
+[2026-01-17 21:56:07] [MitM] Intercepted: StartTransaction
+[2026-01-17 21:56:07] [MitM] Changed id_tag: USER001 -> HACKER_TAG
+[2026-01-17 21:56:07] [MitM] Intercepted: StopTransaction
+[2026-01-17 21:56:07] [MitM] Changed meter_stop: 1500 -> 750
+[2026-01-17 21:56:07] [MitM] Intercepted: RemoteStartTransaction
+[2026-01-17 21:56:07] [MitM] Changed max_current: 32 -> 64 A
